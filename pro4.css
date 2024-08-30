@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(#b8dafc, white);
+    overflow: hidden;
+}
+button{
+    width: fit-content;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5ox;
+    background-color: whitesmoke;
+}
+button:hover{
+    background-color: black;
+}
+.container{
+
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.message{
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding-block-end: 0 20px;
+    box-shadow: 0 2px 4px 0px black;
+}
+#btn{
+    border-radius: 30px;
+     width: 30%;
+}
+#btn:hover{
+    background-color: orangered;
+}
